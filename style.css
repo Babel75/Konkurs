@@ -27,7 +27,15 @@ body {
             text-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
         }
 
-        label {
+        #problab {
+            display: block;
+            font-weight: bold;
+            color: #ff0000;
+            margin: 20px 0 10px 0;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+        #rozwlab {
             display: block;
             font-weight: bold;
             color: #00ffcc;
@@ -35,6 +43,7 @@ body {
             font-size: 1.1rem;
             letter-spacing: 0.5px;
         }
+        
 
         ul {
             list-style: none;
@@ -63,6 +72,7 @@ body {
             top: 50%;
             transform: translateY(-50%);
             opacity: 0.8;
+            box-shadow: 0 0 15px rgba(153, 1, 1, 0.719);
         }
         #rozw li::before {
             content: "✅";
@@ -73,13 +83,21 @@ body {
             top: 50%;
             transform: translateY(-50%);
             opacity: 0.8;
+            box-shadow: 0 0 15px rgba(6, 153, 1, 0.719);
         }
 
 
-        ul li:hover {
+        #prob li:hover {
+            background: rgba(255, 0, 0, 0.1);
+            transform: translateX(4px);
+            border-left-color: #ff0000;
+            box-shadow: 0 0 15px rgba(153, 1, 1, 0.719);
+        }
+        #rozw li:hover {
             background: rgba(0, 255, 153, 0.1);
             transform: translateX(4px);
             border-left-color: #00ffaa;
+            box-shadow: 0 0 15px rgba(6, 153, 1, 0.719);
         }
 
         #mid {
@@ -95,3 +113,4 @@ body {
                 font-size: 1.6rem;
             }
         }
+
