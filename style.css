@@ -1,4 +1,4 @@
-body {
+        body {
             background: linear-gradient(135deg, #0b0b0c 0%, #151515 100%);
             color: #e0e0e0;
             font-family: "Segoe UI", Roboto, sans-serif;
@@ -113,4 +113,67 @@ body {
                 font-size: 1.6rem;
             }
         }
+#prob li {
+  display: flex;             
+  align-items: center;       
+  justify-content: space-between; 
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 4px solid #ff0000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
 
+#prob li::before {
+  content: "❗";
+  margin-right: 10px;
+  color: #00ff99;
+  font-size: 1.2rem;
+}
+
+#info, #info2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(172, 57, 57, 0.767);
+  color: #222831;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(153, 1, 1, 0.719);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#info:hover, #info2:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(172, 57, 57, 0.767);
+}
+#powrot {
+  width: 30px;             
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;              
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5); 
+  position: absolute;       
+  top: 10px;
+  right: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#powrot:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
