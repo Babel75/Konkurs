@@ -17,5 +17,6 @@ switch(num){
 }
 }
 function powrot(){
-  document.getElementById("container").innerHTML = '<div id="top"><div id="problemy"><h1>Moja generacja. Młodzi dla przyszłości</h1><label for="prob">Problemy bieżące</label><ul id="prob"><li>Globalne ocieplenie <button id="nextButton" onclick="Info(1)">→</button></li><li>Zanieczyszczenie planety <button id="nextButton" onclick="Info(2)">→</button></li><li>Oszustwa internetowe <button id="nextButton" onclick="Info(3)">→</button></li><li>Fake News z AI <button id="nextButton" onclick="Info(4)">→</button></li></ul></div><label for="rozw">Możliwe rozwiązania</label><ul id="rozw"><li>Korzystanie z komunikacji miejskiej aby zmniejszyć emisję spalin</li><li>Segregacja śmieci</li><li>Weryfikacja linków w sieci</li><li>Szukanie informacji z zaufanych źródeł</li></ul></div>'
+  document.getElementById("container").innerHTML = '<div id="top"><div id="problemy"><h1>Moja generacja. Młodzi dla przyszłości</h1><label for="prob">Problemy bieżące</label><ul id="prob"><li>Globalne ocieplenie <button id="info" onclick="Info(1)">→</button></li><li>Zanieczyszczenie planety <button id="info" onclick="Info(2)">→</button></li><li>Oszustwa internetowe <button id="info" onclick="Info(3)">→</button></li><li>Fake News z AI <button id="info" onclick="Info(4)">→</button></li></ul></div><label for="rozw">Możliwe rozwiązania</label><ul id="rozw"><li>Korzystanie z komunikacji miejskiej aby zmniejszyć emisję spalin</li><li>Segregacja śmieci</li><li>Weryfikacja linków w sieci</li><li>Szukanie informacji z zaufanych źródeł</li></ul></div>'
 }
+
