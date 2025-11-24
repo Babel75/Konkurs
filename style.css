@@ -153,6 +153,28 @@
   transform: scale(1.2);
   box-shadow: 0 0 15px rgba(172, 57, 57, 0.767);
 }
+
+#info2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(28, 172, 9, 0.767);
+  color: #222831;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(61, 190, 1, 0.719);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#info2:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(15, 105, 3, 0.767);
+}
 #powrot {
   width: 30px;             
   height: 30px;
@@ -176,4 +198,9 @@
 #powrot:hover {
   transform: scale(1.2);
   box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+#mid
+{
+    margin-top: 40px;
+           
 }
